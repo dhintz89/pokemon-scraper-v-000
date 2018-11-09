@@ -10,7 +10,7 @@ class Pokemon
   end
   
   def alter_hp(new_hp)
-    
+    @db.execute("UPDATE Pokemon")
   end
   
   def self.save(name, type, db)
